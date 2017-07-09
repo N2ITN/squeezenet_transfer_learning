@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+SqueezeNet	../squeezenet.py	/^def SqueezeNet($/;"	kind:function	line:43
+WEIGHTS_PATH	../squeezenet.py	/^WEIGHTS_PATH = "squeezenet_weights_tf_dim_ordering_tf_kernels.h5"$/;"	kind:variable	line:14
+exp1x1	../squeezenet.py	/^exp1x1 = "expand1x1"$/;"	kind:variable	line:10
+exp3x3	../squeezenet.py	/^exp3x3 = "expand3x3"$/;"	kind:variable	line:11
+featurization.py	../featurization.py	1;"	kind:file	line:1
+fire_module	../squeezenet.py	/^def fire_module(x, fire_id, squeeze=16, expand=64):$/;"	kind:function	line:19
+img	../featurization.py	/^img = cv2.imread('testimg\/roxy.jpg')$/;"	kind:variable	line:6
+img	../featurization.py	/^img = image.load_img('testimg\/roxy.jpg')$/;"	kind:variable	line:10
+model	../featurization.py	/^model = squeezenet.SqueezeNet(input_shape=img.shape)$/;"	kind:variable	line:8
+preds	../featurization.py	/^preds = model.predict(x)$/;"	kind:variable	line:15
+rbf_svm_classifier.py	../rbf_svm_classifier.py	1;"	kind:file	line:1
+relu	../squeezenet.py	/^relu = "relu_"$/;"	kind:variable	line:12
+return_array	../featurization.py	/^def return_array():$/;"	kind:function	line:18
+show_results	../featurization.py	/^def show_results():$/;"	kind:function	line:22
+sq1x1	../squeezenet.py	/^sq1x1 = "squeeze1x1"$/;"	kind:variable	line:9
+squeezenet.py	../squeezenet.py	1;"	kind:file	line:1
+train_svm_classifer	../rbf_svm_classifier.py	/^def train_svm_classifer(features, labels, model_output_path):$/;"	kind:function	line:9
+x	../featurization.py	/^x = image.img_to_array(img)$/;"	kind:variable	line:11
+x	../featurization.py	/^x = np.expand_dims(x, axis=0)$/;"	kind:variable	line:12
+x	../featurization.py	/^x = preprocess_input(x)$/;"	kind:variable	line:13

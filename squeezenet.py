@@ -62,7 +62,7 @@ def SqueezeNet(
         default_size=227,
         min_size=48,
         data_format=K.image_data_format(),
-        include_top=False
+        include_top=True
     )
 
     if input_tensor is None:

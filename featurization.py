@@ -2,12 +2,10 @@ import numpy as np
 import squeezenet
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
 from keras.preprocessing import image
-import cv2
-img = cv2.imread('testimg/roxy.jpg')
 
-model = squeezenet.SqueezeNet(input_shape=img.shape)
+model = squeezenet.SqueezeNet()
 
-img = image.load_img('testimg/roxy.jpg')
+img = image.load_img('../testimg/pretty_goodgirl.jpg', target_size=(227, 227))
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 x = preprocess_input(x)
