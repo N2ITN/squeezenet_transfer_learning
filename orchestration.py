@@ -1,4 +1,5 @@
-""" Send images, with directory as label, through featurizer, returning """
+""" Send images, with directory as label, through featurizer. Yields (label,feature) pairs"""
+
 from glob import glob
 from random import shuffle
 import numpy as np
